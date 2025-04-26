@@ -1,5 +1,7 @@
 # Fluent Kafka Events
 
+[![npm version](https://img.shields.io/npm/v/fluent-kafka-events.svg)](https://www.npmjs.com/package/fluent-kafka-events)
+
 A TypeScript library for building and publishing Kafka messages with a fluent API.
 
 ## Features
@@ -11,6 +13,8 @@ A TypeScript library for building and publishing Kafka messages with a fluent AP
 - 🔄 **Kafka Integration**: Ready-to-use Kafka producer service
 
 ## Installation
+
+Install from [npm](https://www.npmjs.com/package/fluent-kafka-events):
 
 ```bash
 pnpm add fluent-kafka-events

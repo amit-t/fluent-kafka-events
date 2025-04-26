@@ -44,8 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/fluent-kafka-events.git"
+    "url": "https://github.com/amit-t/fluent-kafka-events.git"
   },
+  "homepage": "https://www.npmjs.com/package/fluent-kafka-events",
   "keywords": [
     "kafka",
     "event",
