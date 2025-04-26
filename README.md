@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/fluent-kafka-events.svg)](https://www.npmjs.com/package/fluent-kafka-events)
 
-A TypeScript library for building and publishing Kafka messages with a fluent API.
+A TypeScript library for standardising building and publishing Kafka messages with a fluent API.
 
 ## Features
 
