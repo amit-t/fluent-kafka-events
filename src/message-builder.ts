@@ -163,7 +163,9 @@ export class MessageBuilder<T = Record<string, unknown>> {
 		// Validate payload if validator exists
 		const validationErrors = this.validate();
 		if (validationErrors && validationErrors.length > 0) {
-			throw new Error(`${ERROR_MESSAGES.VALIDATION_FAILED}: ${JSON.stringify(validationErrors)}`);
+			throw new Error(
+				`${ERROR_MESSAGES.VALIDATION_FAILED}: ${JSON.stringify(validationErrors)}`,
+			);
 		}
 
 		// Check message size constraints
@@ -174,7 +176,9 @@ export class MessageBuilder<T = Record<string, unknown>> {
 		});
 
 		if (serializedMessage.length > MESSAGE_CONSTRAINTS.MAX_MESSAGE_SIZE) {
-			throw new Error(`Message size exceeds maximum allowed size of ${MESSAGE_CONSTRAINTS.MAX_MESSAGE_SIZE} bytes`);
+			throw new Error(
+				`Message size exceeds maximum allowed size of ${MESSAGE_CONSTRAINTS.MAX_MESSAGE_SIZE} bytes`,
+			);
 		}
 
 		// Generate a unique message ID using ULID
